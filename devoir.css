@@ -1,0 +1,111 @@
+
+
+    
+#container{
+    width: 800px;
+    height: 500px;
+    margin: auto;   
+    background-image: url(images/image.jpg);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: auto;
+    
+    }
+header{
+    width: 798px;
+    height: 10%;
+    border: 2px cadetblue solid;
+    text-align: center;
+    margin: auto;
+    /* padding: auto; */
+    position: fixed;}
+nav ul a li{
+    display: inline;
+    border: 2px cadetblue solid;
+    background-color: gray;
+    border-radius: 20% 0%;
+    text-align: left;
+    
+   
+    
+    }
+
+header nav ul a{text-decoration: none;}
+#bb {height: 400px;
+    width: 20%;
+    border: 2px cadetblue solid;
+    padding: auto;
+    text-align: center;
+    position: relative;
+    margin-top: 13%;
+    
+
+}
+#bb ul a li{height: 10%;
+    width: 100px;
+    border: 2px cadetblue solid;
+    padding: auto;
+    display: block;
+   
+    
+    }
+#bb ul a{ 
+    text-decoration: none;}
+
+main{height: 400px;
+    width: 50%;
+    border: 2px cadetblue solid;
+    text-align: center;
+    position: relative;
+    margin-top: 13%;
+    color: chartreuse;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+   
+        }
+
+footer{width: 800px;
+        height: 8%;
+        border: 2px cadetblue solid;
+        text-align: center;
+        color: cadetblue;
+        margin: auto;
+        font-size: xx-large;
+
+    } 
+ footer img{
+     animation:aaa 1s  1s infinite;
+    transform: translate(0px);
+    transition-property: transform;
+     display: transparent;
+    }
+header  nav img{
+            width: 7%;
+            height: 70%;
+            border-radius: 70px;
+            background-color: blueviolet;
+            display: inline-block;
+            float: left;
+            display: transparent;
+            margin:0px 5px;
+            }
+.gaut1{animation:aaa 2s  2s infinite;}
+.gaut2{animation:aaa 1s  1s infinite;}
+.gaut3{animation:aaa 3s  3s infinite;}
+@keyframes aaa{
+                0%{background-color: white; transform: translate(0px); top: 200px;right:0px; opacity: 0,4;}
+                50%{background-color: grey; transform: translate(100px); top: 200px;right: 200px;opacity: 0,8;}
+                100%{background-color: blue; transform: translate(150px); top:200px;right: 0px;opacity: 1;}}  
+            
+aside{height: 400px;
+    width: 10%;
+    border: 2px cadetblue solid;
+    float: right;}
+    /* text-align: center; */
+    /* flex-direction: column;
+    flex-wrap: wrap;}
+
+        */
